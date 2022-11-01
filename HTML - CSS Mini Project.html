@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width , initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+        <title>Parallax Website</title>
+    </head>
+    <style>
+        .body , html{
+            height: 100%;
+            margin:0px;
+            font-size: 16px;
+            font-family: "Lato",sans-serif;
+            font-weight: 400;
+            line-height: 1.8em;
+            color: darkgray;
+        }
+        .pimg1, .pimg2, .pimg3{
+            position: relative;
+            opacity: 0.70;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+
+        }
+        .pimg1{
+            background-image: url('https://images.pexels.com/photos/139303/pexels-photo-139303.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            min-height: 900px;
+
+        }
+        .pimg2{
+            background-image: url('https://images.pexels.com/photos/1668928/pexels-photo-1668928.jpeg?auto=compress&cs=tinysrgb&w=600');
+            min-height: 400px;
+            
+        }
+        .pimg3{
+            background-image: url('https://images.pexels.com/photos/354988/pexels-photo-354988.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            min-height: 400px;
+            
+        }
+        .section{
+            text-align: center;
+            padding: 50px 80px;
+
+        }
+        .section-light{
+            background-color: snow;
+            color: darkslategray;
+        }
+        .section-dark{
+            background-color: darkslategray;
+            color: lightgrey;
+        }
+        .ptext{
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            color: black;
+            font-size: 27px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+        .border{
+            background-color: rgb(234, 178, 106);
+            padding: 20px;
+        }
+        .trans{
+            background-color: transparent;
+            padding: 20px;
+        }
+
+    </style>
+    <body>
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="border">
+                    Parallax Website
+                </span>
+            </div>
+        </div>
+        <section class="section section-light">
+            <h2>Section One</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in. Distinctio provident dolorem modi cumque illo enim quidem tempora deserunt nostrum voluptate labore repellat quisquam quasi cum suscipit dolore ab consequuntur, ad porro earum temporibus. Laborum ad temporibus ex, omnis!
+            </p>
+        </section>
+
+        <div class="pimg2">
+            <div class="ptext">
+                <span class="border trans">
+                    Image Two Text
+                    </span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>Section Two</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
+            </p>
+        </section>
+
+        <div class="pimg3">
+            <div class="ptext">
+                <span class="border trans">
+                        Image Three Text
+                </span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>Section Three</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
+            </p>
+        </section>
+
+        <div class="pimg1"> 
+            <div class="ptext">
+                <span class="border">
+                    Parallax Website
+                </span>
+            </div>
+        </div>
+    </body>
+</html>
